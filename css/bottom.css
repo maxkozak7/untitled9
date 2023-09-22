@@ -1,0 +1,49 @@
+.bottom__baner{
+    width: 793px;
+    height: 96px;
+    margin-top: 74px 0;
+    box-shadow: 0 0 15px #F2F5FA;
+    border-radius: 8px;
+}
+
+.bottom__baner h2{
+    width: 500px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 27px;
+    padding-left: 22px;
+    color: #222;
+}
+
+.bottom__baner p{
+    width: 150px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 22px;
+    color: #73738D;
+}
+
+.bottom__baner__button{
+    position: relative;
+    right: 22px;
+    bottom: 42px;
+    float: right;
+    width: 156px;
+    height: 32px;
+    border-radius: 34px;
+    background-color: #26C296;
+    border-width: 0px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+}

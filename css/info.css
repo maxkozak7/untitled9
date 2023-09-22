@@ -1,0 +1,365 @@
+.info__section{
+    max-width: 800px;
+    padding: 0;
+    height: 940px;
+}
+
+.notifications{
+    height: 67px;
+    width: 50%;
+    max-width: 380px;
+    margin-bottom: 17px;
+    margin-right: 0;
+    display: flex;
+    margin-bottom: 16px;
+    box-shadow: 0 0 15px #F2F5FA;
+    border-radius: 17px;
+}
+
+.notifications p{
+    color: #222222;
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+
+.notifications img{
+    float: left;
+    align-items: center;
+    padding: 16px 8px 16px 16px;
+}
+
+.bold__text{
+    font-weight: 600;
+    opacity: 1;
+}
+
+.green__text{
+    color: #26C296;
+}
+
+.features{
+    width: 50%;
+    max-width: 345px;
+    float: right;
+}
+
+.features:nth-child(even){
+    float: left;
+    margin-left: 40px;
+    max-width: 390px;
+}
+
+.features h2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 17px;
+}
+
+.features__second{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 17px;
+}
+
+.features__text{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #73738D;
+}
+
+.features__text:nth-child(even){
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #73738D;
+    padding-right: 25px;
+}
+
+.check__marks{
+    display: inline-block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 17px;
+    color: #73738D;
+}
+
+.check__marks:nth-child(3){
+    margin-right: 62px;
+}
+
+.check__marks:nth-child(5){
+    margin-right: 27px;
+}
+
+.check__marks:before{
+    content: url(../img/svg/check.svg);
+    margin-right: 4px;
+    height: 7px;
+    width: 9px;
+}
+
+.second__check__marks{
+    display: inline-block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 17px;
+    color: #73738D;
+}
+
+.second__check__marks:before{
+    content: url(../img/svg/check.svg);
+    margin-right: 4px;
+    height: 7px;
+    width: 9px;
+}
+
+.second__check__marks:nth-child(3){
+    margin-right: 26px;
+}
+
+.second__check__marks:nth-child(5){
+    margin-right: 57px;
+}
+
+.circle__with__arrows{
+    width: 52px;
+    height: 52px;
+    border-radius: 32px;
+    background: url(../img/svg/arrows.svg) no-repeat center;
+    background-color: #E4F7F2;
+    margin-top: 73px;
+    margin-left: 40px;
+    margin-bottom: 28px;
+}
+
+.profile{
+    float: right;
+    box-shadow: 0 0 15px #F2F5FA;
+    width: 350px;
+    height: 210px;
+    border-radius: 21px;
+    display: flex;
+}
+
+.profile img{
+    float: left top;
+    padding-top: 26px;
+    padding-left: 17px;
+    width: 42px;
+    height: 42px;
+}
+
+.profile h3{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.profile__info{
+    padding-top: 28px;
+    padding-left: 8px;
+    flex-grow: 1;
+}
+
+.work__position{
+    display: inline-block;
+    padding-top: 3px;
+    margin: 0;
+    opacity: 0.8;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+}
+
+.birthday {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.birthday img {
+    padding: 0;
+    padding-left: 17px;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
+
+.date__of__birth {
+    display: flex;
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    color: #222222;
+    opacity: 0.8;
+}
+
+.job{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 131px;
+}
+
+.job img {
+    padding: 0;
+    padding-left: 17px;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
+
+.job__info {
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    color: #222222;
+    opacity: 0.8;
+}
+
+.completed__tasks{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 161px;
+}
+
+.completed__tasks img {
+    padding: 0;
+    padding-left: 17px;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
+
+.task__info {
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    color: #222222;
+    opacity: 0.8;
+}
+
+.circle__with__atom{
+    position: relative;
+    width: 52px;
+    height: 52px;
+    border-radius: 32px;
+    background: url(../img/svg/atom.svg) no-repeat center;
+    background-color: #E4F7F2;
+    margin-top: 110px;
+    margin-left: 400px;
+    margin-right: 300px;
+    float: right;
+}
+
+.send__content{
+    float: left;
+    margin-left: 40px;
+    width: 380px;
+    height: 159px;
+    border-radius: 21px;
+    box-shadow: 0 0 15px #F2F5FA;
+}
+
+.send__content img{
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 33px;
+    padding-bottom: 123px;
+    padding-right: 17px;
+}
+
+.send__content h3{
+    padding-top: 22px;
+    padding-left: 17px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+    
+}
+
+.send__content__num__of__people{
+    padding-top: 3px;
+    padding-left: 17px;
+    padding-bottom: 19px;
+    opacity: 0.8;
+    color: #222222;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.send__content__info{
+    padding-left: 17px;
+    padding-right: 55px;
+    opacity: 0.8;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #73738D;
+}
+
+.connection__feature{
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 28px;
+    float: right;
+}
+
+.connection__feature h2{
+    color: #222222;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 17px;
+}
+
+.connection__feature p{
+    width: 343px;
+    color: #73738D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}

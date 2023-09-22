@@ -1,0 +1,72 @@
+.hero_container{
+    height: 100%;
+    background: url(../img/svg/hero.svg) no-repeat right top;
+    z-index: 999;
+}
+
+.hero__inner{
+    width: 430px;
+    padding-top: 142px;
+    margin-right: 0;
+    padding-bottom: 219px;
+}
+
+.hero__tittle{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #222222;
+    padding-bottom: 17px;
+}
+
+.hero__paragraph{   
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #73738D;
+    padding-bottom: 21px;
+}
+
+.hero__enter-mail{
+    position: relative;
+}
+
+.hero__enter-mail__input{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    color: #73738D;
+    border-radius: 34px;
+    border-width: 0;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 211px;
+    padding-left: 16px;
+    width: 423px;
+    height: 42px;
+    top: 399px;
+    left: 101px;
+    box-shadow: 0 0 5px #888;
+    opacity: 0.6;
+}
+
+.hero__enter-mail__submit{
+    border-radius: 34px;
+    z-index: 999;
+    position: absolute;
+    bottom: 0%;
+    line-height: 1;
+    z-index: 4;
+    width: 156px;
+    height: 42px;
+    top: 0px;
+    left: 274px;
+    background-color: #1943EF;
+    border-width: 0;
+    color: #fff;
+}
